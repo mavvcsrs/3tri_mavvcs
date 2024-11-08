@@ -10,9 +10,9 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container_texto')
-    paragrafo.innerHTML = 'Você sabia que o mundo tem'
-    PAREI EM AULA 7
+    paragrafo.innerHTML = 'Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões </span> de pessoas e'
 
 }
+
 
 vizualizarInformacoesGlobais()
